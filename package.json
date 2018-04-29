@@ -1,0 +1,26 @@
+{
+  "name": "mock-smtp-server",
+  "version": "0.1.0",
+  "description": "SMTP mock server",
+  "bin": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "smtp",
+    "mock"
+  ],
+  "author": "Alessio Coltellacci <alessio.coltellacci@clever-cloud.com>",
+  "license": "ISC",
+  "dependencies": {
+    "node-emoji": "^1.8.1",
+    "smtp-server": "^3.4.2",
+    "stream-replace": "^1.0.0"
+  },
+  "pkg": {
+    "targets": [
+      "latest"
+    ]
+  }
+}
